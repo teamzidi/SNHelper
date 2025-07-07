@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+*.xcodeproj/xcuserdata/
+*.xcuserdatad/
+*.xcassets/
+*.xcassets/Contents.json
+!*.xcassets/
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.app
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+!Pods/.gitignore
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# Other
+.swiftpm/
+.vscode/
+.idea/
+.localized
+
+# Debugging
+*.log
